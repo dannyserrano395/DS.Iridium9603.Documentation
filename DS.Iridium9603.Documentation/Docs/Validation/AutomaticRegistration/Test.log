@@ -1,0 +1,8 @@
+{"Product Version":"1.0.0",".NET Version Used":"8.0.8","User Running Process":"DENNISSERRAC62D\\Dennis_Serrano","Process Start Time UTC":"2026-07-18 22:51:42,781","Local Time Information":"Now: 7/18/2026 3:51:46 PM, UTC Offset: -07:00:00, Zone: Pacific Daylight Time, Is DST: True"}
+2026-07-18 22:51:51,475|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-18 22:51:55,518|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&K0 {"ISU":{"Command":"","Response":"","Result":"0"}}
+2026-07-18 22:52:19,928|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDAREG=3 {"ISU":{"Command":"","Response":"","Result":"0"}}
+2026-07-18 23:09:11,330|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":0}}
+2026-07-18 23:20:53,228|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-18 23:21:00,458|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"+AREG:3,0","Result":""}}
+2026-07-18 23:22:40,418|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__11>d.MoveNext|> shutdown {"ISU":{"Connected":true,"Disconnected":true,"Faulted":false}}

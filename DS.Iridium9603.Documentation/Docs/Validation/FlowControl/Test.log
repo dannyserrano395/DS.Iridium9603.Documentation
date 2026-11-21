@@ -1,0 +1,102 @@
+{"Product Version":"1.0.0",".NET Version Used":"8.0.8","User Running Process":"DENNISSERRAC62D\\Dennis_Serrano","Process Start Time UTC":"2026-07-11 15:04:27,684","Local Time Information":"Now: 7/11/2026 8:04:31 AM, UTC Offset: -07:00:00, Zone: Pacific Daylight Time, Is DST: True"}
+2026-07-11 15:04:41,572|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-11 15:04:56,643|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATE1 {"ISU":{"Command":"ATE1","Response":"","Result":"OK"}}
+2026-07-11 15:04:59,856|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATV1 {"ISU":{"Command":"ATV1","Response":"","Result":"OK"}}
+2026-07-11 15:05:09,587|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&K3 {"ISU":{"Command":"AT&K3","Response":"","Result":"OK"}}
+2026-07-11 15:05:41,895|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT%R {"ISU":{"Command":"AT%R","Response":"REG  DEC HEX  REG  DEC HEXS000 000 00H  S001 000 00HS002 043 2bH  S003 013 0dHS004 010 0aH  S005 008 08HS006 004 04H  S007 050 32HS008 004 04H  S009 006 06HS010 014 0eH  S011 000 00HS012 050 32H  S013 049 31HS014 170 aaH  S015 000 00HS016 000 00H  S017 000 00HS018 000 00H  S019 000 00HS020 000 00H  S021 048 30HS022 246 f6H  S023 012 0cHS024 000 00H  S025 005 05HS026 000 00H  S027 009 09HS028 000 00H  S029 000 00HS030 000 00H  S031 000 00HS032 017 11H  S033 019 13HS034 000 00H  S035 007 07HS036 000 00H  S037 000 00HS038 000 00H  S039 003 03HS040 104 68H  S041 000 00HS042 016 10H  S043 032 20HS044 004 04H  S045 000 00HS046 000 00H  S047 000 00HS048 000 00H  S049 001 01HS050 000 00H  S051 002 02HS052 000 00H  S053 000 00HS054 006 06H  S055 000 00HS056 000 00H  S057 000 00HS058 003 03H  S059 000 00HS060 000 00H  S061 000 00HS062 000 00H  S063 000 00HS064 000 00H  S065 000 00HS066 000 00H  S067 000 00HS068 000 00H  S069 000 00HS070 000 00H  S071 000 00HS072 000 00H  S073 000 00HS074 000 00H  S075 000 00HS076 000 00H  S077 000 00HS078 000 00H  S079 000 00HS080 000 00H  S081 000 00HS082 000 00H  S083 000 00HS084 000 00H  S085 000 00HS086 000 00H  S087 000 00HS088 000 00H  S089 000 00HS090 000 00H  S091 000 00HS092 000 00H  S093 000 00HS094 000 00H  S095 000 00HS096 000 00H  S097 000 00HS098 105 69H  S099 105 69HS100 015 0fH  S101 000 00HS102 030 1eH  S103 010 0aHS104 025 19H  S105 000 00HS106 010 0aH  S107 010 0aHS108 000 00H  S109 000 00HS110 000 00H  S111 000 00HS112 000 00H  S113 000 00HS114 000 00H  S115 000 00HS116 000 00H  S117 000 00HS118 000 00H  S119 000 00HS120 000 00H  S121 001 01HS122 001 01H  S123 008 08HS124 015 0fH  S125 010 0aHS126 002 02H  S127 000 00HS128 000 00H","Result":"OK"}}
+2026-07-11 15:06:08,263|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&V {"ISU":{"Command":"AT&V","Response":"ACTIVE PROFILE:E1 Q0 V1 &D2 &K3 S003:013 S004:010 S005:008 S013:049 S014:170 S021:048 S023:012 S039:003 S121:001 S122:001 STORED PROFILE 0:E1 Q0 V1 &D2 &K3 S013:049 S014:170 S021:048 S023:012 S039:003 S121:001 S122:001 STORED PROFILE 1:E1 Q0 V1 &D2 &K3 S013:049 S014:170 S021:048 S023:012 S039:003 S121:001 S122:001 ","Result":"OK"}}
+2026-07-11 15:06:26,728|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&Y1 {"ISU":{"Command":"AT&Y1","Response":"","Result":"OK"}}
+2026-07-11 15:06:43,541|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&Y0 {"ISU":{"Command":"AT&Y0","Response":"","Result":"OK"}}
+2026-07-11 15:07:14,350|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT*R1 {"ISU":{"Command":"AT*R1","Response":"","Result":"OK"}}
+2026-07-11 15:07:33,524|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT*R0 {"ISU":{"Command":"AT*R0","Response":"","Result":"OK"}}
+2026-07-11 15:07:45,512|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT*R1 {"ISU":{"Command":"AT*R1","Response":"","Result":"OK"}}
+2026-07-11 15:07:53,226|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CCLK? {"ISU":{"Command":"AT+CCLK?","Response":"+CCLK:14/05/11,14:24:11","Result":"OK"}}
+2026-07-11 15:08:07,414|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CGMI {"ISU":{"Command":"AT+CGMI","Response":"Iridium","Result":"OK"}}
+2026-07-11 15:08:21,891|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CGMM {"ISU":{"Command":"AT+CGMM","Response":"IRIDIUM 9600 Family SBD Transceiver","Result":"OK"}}
+2026-07-11 15:08:38,017|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CGMR {"ISU":{"Command":"AT+CGMR","Response":"Call Processor Version: TA16005Modem DSP Version: 1.7 svn: 2358DBB Version: 0x0001 (ASIC)RFA Version: 0x0007 (SRFA2)NVM Version: KVSHardware Version: BOOT07d2/9602NrvA-D/04/RAW0dBOOT Version: TA16005 (rev exported)","Result":"OK"}}
+2026-07-11 15:09:02,631|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CGSN {"ISU":{"Command":"AT+CGSN","Response":"300234066586340","Result":"OK"}}
+2026-07-11 15:09:27,563|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CIER=? {"ISU":{"Command":"AT+CIER=?","Response":"+CIER:(0-1),(0-1),(0-1),(0-1),(0-1)","Result":"OK"}}
+2026-07-11 15:09:41,174|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CIER? {"ISU":{"Command":"AT+CIER?","Response":"+CIER:0,0,0,0,0","Result":"OK"}}
+2026-07-11 15:10:12,973|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CIER=0,0,0,0,0 {"ISU":{"Command":"AT+CIER=0,0,0,0,0","Response":"","Result":"OK"}}
+2026-07-11 15:10:42,232|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CRIS {"ISU":{"Command":"AT+CRIS","Response":"+CRIS:000,000","Result":"OK"}}
+2026-07-11 15:10:57,969|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CRISX {"ISU":{"Command":"AT+CRISX","Response":"+CRISX:000,000,00000000","Result":"OK"}}
+2026-07-11 15:11:18,645|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CSQ {"ISU":{"Command":"AT+CSQ","Response":"+CSQ:5","Result":"OK"}}
+2026-07-11 15:11:33,382|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CSQ=? {"ISU":{"Command":"AT+CSQ=?","Response":"+CSQ:(0-5)","Result":"OK"}}
+2026-07-11 15:11:48,453|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CSQF {"ISU":{"Command":"AT+CSQF","Response":"+CSQF:4","Result":"OK"}}
+2026-07-11 15:12:25,755|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+CULK? {"ISU":{"Command":"AT+CULK?","Response":"+CULK:0","Result":"OK"}}
+2026-07-11 15:12:40,619|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+GMI {"ISU":{"Command":"AT+GMI","Response":"Iridium","Result":"OK"}}
+2026-07-11 15:12:54,869|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+GMM {"ISU":{"Command":"AT+GMM","Response":"IRIDIUM 9600 Family SBD Transceiver","Result":"OK"}}
+2026-07-11 15:13:09,948|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+GMR {"ISU":{"Command":"AT+GMR","Response":"Call Processor Version: TA16005Modem DSP Version: 1.7 svn: 2358DBB Version: 0x0001 (ASIC)RFA Version: 0x0007 (SRFA2)NVM Version: KVSHardware Version: BOOT07d2/9602NrvA-D/04/RAW0dBOOT Version: TA16005 (rev exported)","Result":"OK"}}
+2026-07-11 15:13:24,737|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+GSN {"ISU":{"Command":"AT+GSN","Response":"300234066586340","Result":"OK"}}
+2026-07-11 15:13:41,469|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+IPR=6 {"ISU":{"Command":"AT+IPR=6","Response":"","Result":"OK"}}
+2026-07-11 15:14:18,321|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+IPR=? {"ISU":{"Command":"AT+IPR=?","Response":"+IPR:(001-009)","Result":"OK"}}
+2026-07-11 15:14:33,444|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+IPR? {"ISU":{"Command":"AT+IPR?","Response":"+IPR:006","Result":"OK"}}
+2026-07-11 15:15:55,056|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDLOE {"ISU":{"Command":"AT+SBDLOE","Response":"+SBDLOE:0,0","Result":"OK"}}
+2026-07-11 15:16:11,620|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDAREG=? {"ISU":{"Command":"AT+SBDAREG=?","Response":"+SBDAREG:(0-4)","Result":"OK"}}
+2026-07-11 15:16:28,329|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDAREG? {"ISU":{"Command":"AT+SBDAREG?","Response":"+SBDAREG:0","Result":"OK"}}
+2026-07-11 15:16:48,713|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDC {"ISU":{"Command":"AT+SBDC","Response":"0","Result":"OK"}}
+2026-07-11 15:17:02,418|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDD0 {"ISU":{"Command":"AT+SBDD0","Response":"0","Result":"OK"}}
+2026-07-11 15:17:03,713|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDD1 {"ISU":{"Command":"AT+SBDD1","Response":"0","Result":"OK"}}
+2026-07-11 15:17:05,425|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDD2 {"ISU":{"Command":"AT+SBDD2","Response":"0","Result":"OK"}}
+2026-07-11 15:17:53,044|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDDET {"ISU":{"Command":"AT+SBDDET","Response":"+SBDDET:1,32","Result":"OK"}}
+2026-07-11 15:18:10,250|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDDSC? {"ISU":{"Command":"AT+SBDDSC?","Response":"0","Result":"OK"}}
+2026-07-11 15:18:27,585|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDGW {"ISU":{"Command":"AT+SBDGW","Response":"+SBDGW: EMSS","Result":"OK"}}
+2026-07-11 15:18:42,992|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDGWN {"ISU":{"Command":"AT+SBDGWN","Response":"+SBDGWN: 1","Result":"OK"}}
+2026-07-11 15:19:19,449|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDI {"ISU":{"Command":"AT+SBDI","Response":"+SBDI: 2, 0, 2, 0, 0, 0","Result":"OK"}}
+2026-07-11 15:19:58,932|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIX {"ISU":{"Command":"AT+SBDIX","Response":"+SBDIX: 0, 0, 0, 0, 0, 0","Result":"OK"}}
+2026-07-11 15:20:15,685|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIXA {"ISU":{"Command":"AT+SBDIXA","Response":"+SBDIX: 0, 1, 0, 0, 0, 0","Result":"OK"}}
+2026-07-11 15:20:30,123|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDMTA=1 {"ISU":{"Command":"AT+SBDMTA=1","Response":"","Result":"OK"}}
+2026-07-11 15:20:44,528|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDMTA=0 {"ISU":{"Command":"AT+SBDMTA=0","Response":"","Result":"OK"}}
+2026-07-11 15:21:06,057|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDMTA? {"ISU":{"Command":"AT+SBDMTA?","Response":"+SBDMTA:0","Result":"OK"}}
+2026-07-11 15:21:19,725|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDMTA=? {"ISU":{"Command":"AT+SBDMTA=?","Response":"+SBDMTA:(0-1)","Result":"OK"}}
+2026-07-11 15:21:37,072|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDREG? {"ISU":{"Command":"AT+SBDREG?","Response":"+SBDREG:2","Result":"OK"}}
+2026-07-11 15:21:52,106|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDAREG=0 {"ISU":{"Command":"AT+SBDAREG=0","Response":"","Result":"OK"}}
+2026-07-11 15:24:45,697|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDAREG=? {"ISU":{"Command":"AT+SBDAREG=?","Response":"+SBDAREG:(0-4)","Result":"OK"}}
+2026-07-11 15:24:59,945|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDS {"ISU":{"Command":"AT+SBDS","Response":"+SBDS: 0, 2, 0, -1","Result":"OK"}}
+2026-07-11 15:25:14,926|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDST? {"ISU":{"Command":"AT+SBDST?","Response":"+SBDST:0","Result":"OK"}}
+2026-07-11 15:25:32,451|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDSX {"ISU":{"Command":"AT+SBDSX","Response":"+SBDSX: 0, 2, 0, -1, 0, 0","Result":"OK"}}
+2026-07-11 15:25:50,333|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT-MSGEOS {"ISU":{"Command":"AT-MSGEOS","Response":"-MSGEO: -2424,-4736,3500,1d4a3acf","Result":"OK"}}
+2026-07-11 15:26:04,256|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT-MSGEO {"ISU":{"Command":"AT-MSGEO","Response":"-MSGEO: -2424,-4736,3500,1d4a3acf","Result":"OK"}}
+2026-07-11 15:26:21,235|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT-MSSTM {"ISU":{"Command":"AT-MSSTM","Response":"-MSSTM: 1d4a4aad","Result":"OK"}}
+2026-07-11 15:26:49,719|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDWT=hellome {"ISU":{"Command":"AT+SBDWT=hellome","Response":"","Result":"OK"}}
+2026-07-11 15:27:05,703|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT {"ISU":{"Command":"AT","Response":"","Result":"OK"}}
+2026-07-11 15:27:26,275|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATE0 {"ISU":{"Command":"ATE0","Response":"","Result":"OK"}}
+2026-07-11 15:27:49,130|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATE1 {"ISU":{"Command":"","Response":"","Result":"OK"}}
+2026-07-11 15:28:04,421|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI0 {"ISU":{"Command":"ATI0","Response":"2400","Result":"OK"}}
+2026-07-11 15:28:11,894|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI1 {"ISU":{"Command":"ATI1","Response":"0000","Result":"OK"}}
+2026-07-11 15:28:37,184|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI2 {"ISU":{"Command":"ATI2","Response":"OK","Result":"OK"}}
+2026-07-11 15:28:39,196|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI3 {"ISU":{"Command":"ATI3","Response":"TA16005","Result":"OK"}}
+2026-07-11 15:28:40,591|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI4 {"ISU":{"Command":"ATI4","Response":"IRIDIUM 9600 Family","Result":"OK"}}
+2026-07-11 15:28:41,885|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI5 {"ISU":{"Command":"ATI5","Response":"8816","Result":"OK"}}
+2026-07-11 15:28:43,913|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI6 {"ISU":{"Command":"ATI6","Response":"13X","Result":"OK"}}
+2026-07-11 15:28:46,144|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATI7 {"ISU":{"Command":"ATI7","Response":"BOOT07d2/9602NrvA-D/04/RAW0d","Result":"OK"}}
+2026-07-11 15:29:53,293|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATQ0 {"ISU":{"Command":"ATQ0","Response":"","Result":"OK"}}
+2026-07-11 15:30:07,416|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATV0 {"ISU":{"Command":"ATV0","Response":"","Result":"0"}}
+2026-07-11 15:30:09,980|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATV1 {"ISU":{"Command":"ATV1","Response":"","Result":"OK"}}
+2026-07-11 15:30:35,210|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&F0 {"ISU":{"Command":"AT&F0","Response":"","Result":"OK"}}
+2026-07-11 15:30:51,372|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&W0 {"ISU":{"Command":"AT&W0","Response":"","Result":"OK"}}
+2026-07-11 15:31:05,993|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&W1 {"ISU":{"Command":"AT&W1","Response":"","Result":"OK"}}
+2026-07-11 15:31:18,453|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATZ0 {"ISU":{"Command":"ATZ0","Response":"","Result":"OK"}}
+2026-07-11 15:31:31,732|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATZ1 {"ISU":{"Command":"ATZ1","Response":"","Result":"OK"}}
+2026-07-11 15:31:50,836|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDWT {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:31:55,543|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__4>d.MoveNext|> stop {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:46:36,483|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-11 15:46:58,682|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDWB=5 {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:47:01,592|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__4>d.MoveNext|> stop {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:52:38,094|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-11 15:52:57,823|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDRT {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:53:00,957|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__4>d.MoveNext|> stop {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:56:37,361|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-11 15:56:56,879|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDRB {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 15:57:02,058|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__4>d.MoveNext|> stop {"ISU":{"Connected":true,"Disconnected":true,"Faulted":true}}
+2026-07-11 16:06:32,600|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-11 16:06:36,799|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT&K0 {"ISU":{"Command":"AT&K0","Response":"","Result":"OK"}}
+2026-07-11 16:06:52,074|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDWT {"ISU":{"Command":"AT+SBDWT","Response":"READY","Result":""}}
+2026-07-11 16:06:58,498|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__9>d.MoveNext|> danny {"ISU":{"Command":"danny","Response":"0","Result":"OK"}}
+2026-07-11 16:07:07,474|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDTC {"ISU":{"Command":"AT+SBDTC","Response":"SBDTC: Outbound SBD Copied to Inbound SBD: size = 5","Result":"OK"}}
+2026-07-11 16:07:16,842|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDRT {"ISU":{"Command":"AT+SBDRT","Response":"+SBDRT:danny","Result":"OK"}}
+2026-07-11 16:07:31,585|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDWB=5 {"ISU":{"Command":"AT+SBDWB=5","Response":"READY","Result":""}}
+2026-07-11 16:07:38,789|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__10>d.MoveNext|> smith {"ISU":{"Command":"","Response":"0","Result":"OK"}}
+2026-07-11 16:07:43,547|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDTC {"ISU":{"Command":"AT+SBDTC","Response":"SBDTC: Outbound SBD Copied to Inbound SBD: size = 5","Result":"OK"}}
+2026-07-11 16:07:56,894|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDRB {"ISU":{"Command":"AT+SBDRB","Response":"AAVzbWl0aAIl","Result":"OK"}}
+2026-07-11 16:08:16,956|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__11>d.MoveNext|> shutdown {"ISU":{"Connected":true,"Disconnected":true,"Faulted":false}}

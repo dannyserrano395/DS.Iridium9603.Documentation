@@ -1,0 +1,30 @@
+{"Product Version":"1.0.0",".NET Version Used":"8.0.8","User Running Process":"DENNISSERRAC62D\\Dennis_Serrano","Process Start Time UTC":"2026-07-07 01:30:11,389","Local Time Information":"Now: 7/6/2026 6:30:12 PM, UTC Offset: -07:00:00, Zone: Pacific Daylight Time, Is DST: True"}
+2026-07-07 01:30:18,862|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__3>d.MoveNext|> start {"ISU":{"Connected":true,"Disconnected":false,"Faulted":false}}
+2026-07-07 01:30:55,715|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDI {"ISU":{"Command":"","Response":"+SBDI: 2, 1, 2, 0, 0, 0","Result":"OK"}}
+2026-07-07 01:31:15,859|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDI {"ISU":{"Command":"","Response":"+SBDI: 0, 1, 1, 328, 1, 0","Result":"OK"}}
+2026-07-07 01:32:10,837|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":0}}
+2026-07-07 01:32:21,909|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":0}}
+2026-07-07 01:32:33,964|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIX {"ISU":{"Command":"","Response":"+SBDIX: 0, 2, 1, 329, 1, 0","Result":"OK"}}
+2026-07-07 01:33:00,706|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:33:10,136|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"SBDRING","Result":""}}
+2026-07-07 01:33:34,440|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIX {"ISU":{"Command":"","Response":"+SBDIX: 0, 3, 1, 330, 1, 0","Result":"OK"}}
+2026-07-07 01:33:37,950|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:33:43,777|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"SBDRING","Result":""}}
+2026-07-07 01:34:15,035|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:34:21,565|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"SBDRING","Result":""}}
+2026-07-07 01:34:36,383|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIX {"ISU":{"Command":"","Response":"+SBDIX: 0, 4, 1, 331, 1, 0","Result":"OK"}}
+2026-07-07 01:34:56,067|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> ATV0 {"ISU":{"Command":"","Response":"","Result":"0"}}
+2026-07-07 01:35:00,806|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:35:02,923|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"SBDRING","Result":""}}
+2026-07-07 01:35:30,691|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:35:33,534|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"126","Result":""}}
+2026-07-07 01:35:45,487|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIX {"ISU":{"Command":"","Response":"+SBDIX: 0, 5, 1, 332, 1, 0","Result":"0"}}
+2026-07-07 01:35:52,423|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:35:58,039|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"126","Result":""}}
+2026-07-07 01:36:30,687|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:36:37,273|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"126","Result":""}}
+2026-07-07 01:36:41,635|INFO|CommandLine+<>c__DisplayClass14_1+<<CommandLineAsync>b__8>d.MoveNext|> AT+SBDIX {"ISU":{"Command":"","Response":"+SBDIX: 0, 6, 1, 333, 1, 0","Result":"0"}}
+2026-07-07 01:36:49,282|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":1}}
+2026-07-07 01:36:55,287|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__6>d.MoveNext|> try-urc {"ISU":{"Command":"","Response":"126","Result":""}}
+2026-07-07 01:37:00,391|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__7>d.MoveNext|> urc-count {"ISU":{"UnsolicitedResultCodeCount":0}}
+2026-07-07 01:37:15,009|INFO|CommandLine+<>c__DisplayClass14_0+<<CommandLineAsync>b__11>d.MoveNext|> shutdown {"ISU":{"Connected":true,"Disconnected":true,"Faulted":false}}
