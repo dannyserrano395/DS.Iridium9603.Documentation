@@ -1,0 +1,177 @@
+﻿DS.Iridium9603 Public API
+========================
+
+Overview
+--------
+
+This document is based on the XML documentation generated during the
+DS.Iridium9603 project build using the `GenerateDocumentationFile` property.
+
+-------------------------------------------------------------------------------
+
+Iridium9603Options
+------------------
+
+**Type:** `DS.Iridium9603.Iridium9603Options`
+
+Provides options to be used with `Iridium9603`.
+
+### Properties
+
+**BaudRate**
+
+Gets or sets the serial baud rate.
+
+**DataBits**
+
+Gets or sets the standard length of data bits per byte.
+
+**Parity**
+
+Gets or sets the parity-checking protocol.
+
+**StopBits**
+
+Gets or sets the standard number of stopbits per byte.
+
+**PortNames**
+
+Gets or sets the port names to scan for the Iridium 9603 modem.
+
+-------------------------------------------------------------------------------
+
+Iridium9603
+-----------
+
+**Type:** `DS.Iridium9603.Iridium9603`
+
+Provides an asynchronous Iridium 9603 modem subsystem that manages
+connectivity, command execution, unsolicited result code (URC) processing,
+and lifecycle state transitions.
+
+### Constructor
+
+**Iridium9603(Iridium9603Options)**
+
+Initializes a new instance of the `Iridium9603` class.
+
+### Lifecycle Properties
+
+**Connected**
+
+Represents the Connected state of the subsystem. The task is completed when
+a connection to the Iridium 9603 modem is successfully established and
+canceled when a connection attempt fails or the subsystem is disposed before
+the Connected state is set.
+
+**Disconnected**
+
+Represents the Disconnected state of the subsystem. The task is completed
+when the subsystem is successfully disconnected from the Iridium 9603 modem
+and canceled when a connection attempt fails or the subsystem is disposed
+before the Disconnected state is set.
+
+**Faulted**
+
+Represents the Faulted state of the subsystem. The task faults with the
+exception that caused the subsystem to transition to the Faulted state and
+is canceled when the subsystem successfully completes without faulting or
+the subsystem is disposed before the Faulted state is set.
+
+### Lifecycle Methods
+
+**ConnectAsync()**
+
+Connects to the Iridium 9603 modem and transitions the subsystem to the
+Connected state upon success. If the connection attempt fails, the
+Connected and Disconnected states are canceled and the Faulted state is
+set with the exception that caused the failure.
+
+**DisconnectAsync()**
+
+Disconnects from the Iridium 9603 modem and transitions the subsystem to the
+Disconnected state upon success. During a successful disconnect, the Faulted
+state is canceled.
+
+**CancelAsync()**
+
+Cancels the subsystem lifecycle. The operation succeeds only if the
+Connected, Faulted, and Disconnected states have not been set.
+Upon success, all lifecycle states transition to the Canceled state.
+
+**IsConnected()**
+
+Returns true if the subsystem is in the Connected state; otherwise, false.
+
+**IsFaulted()**
+
+Returns true if the subsystem is in the Faulted state; otherwise, false.
+
+**IsDisconnected()**
+
+Returns true if the subsystem is in the Disconnected state; otherwise, false.
+
+**Dispose()**
+
+Disposes internal resources and cancels incomplete lifecycle states.
+Synchronization primitives are disposed only when all lifecycle states
+have completed or been canceled.
+
+### Command Methods
+
+**ExecuteCommandAsync(string)**
+
+Executes a command on the Iridium 9603 modem and returns the command
+response. If command execution fails while the subsystem is connected, the
+Faulted state is set with the exception that caused the failure and the
+subsystem transitions to the Disconnected state.
+
+**SetMobileOrientedBufferAsync(string)**
+
+Sets the mobile-originated message buffer and returns the command response.
+If command execution fails while the subsystem is connected, the Faulted
+state is set with the exception that caused the failure and the subsystem
+transitions to the Disconnected state.
+
+**SetMobileOrientedBufferAsync(byte[])**
+
+Sets the mobile-originated message buffer and returns the command response.
+If command execution fails while the subsystem is connected, the Faulted
+state is set with the exception that caused the failure and the subsystem
+transitions to the Disconnected state.
+
+### Unsolicited Result Code Methods
+
+**WaitForUnsolicitedResultCodeAsync(CancellationToken)**
+
+Waits for an unsolicited result code (URC) to become available.
+
+**ReadUnsolicitedResultCodeAsync(CancellationToken)**
+
+Reads an unsolicited result code from the channel.
+
+**TryReadUnsolicitedResultCode(out (byte[], byte[], byte[]))**
+
+Attempts to read and remove a queued unsolicited result code (URC).
+
+**GetUnsolicitedResultCodeCount()**
+
+Returns the count of queued unsolicited result codes (URCs).
+
+### Utility Methods
+
+**TryRemove16BitSummationChecksum(byte[], out byte[])**
+
+Attempts to remove an appended 16-bit summation checksum.
+
+**IsShortBurstDataRingAlert((byte[], byte[], byte[]))**
+
+Returns true if the transaction contains a Short Burst Data Ring Alert; otherwise, false.
+
+**TransferredMobileOriginatedMessageSuccessfully((byte[], byte[], byte[]))**
+
+Returns true if a mobile originated message was successfully transferred; otherwise, false.
+
+**ReceivedMobileTerminatedMessageSuccessfully((byte[], byte[], byte[]))**
+
+Returns true if a mobile terminated message was successfully received; otherwise, false.
