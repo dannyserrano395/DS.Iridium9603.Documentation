@@ -53,7 +53,7 @@ Responsibilities
 
 Iridium9603
 
-The Iridium9603 class is the primary entry point into the subsystem.
+The Iridium9603 class implements the subsystem.
 
 Responsibilities include:
 
