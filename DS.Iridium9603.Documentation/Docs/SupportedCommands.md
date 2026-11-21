@@ -1,4 +1,5 @@
-﻿Supported Commands
+﻿
+Supported Commands
 ==================
 
 Overview
@@ -122,6 +123,9 @@ Supported AT Commands
 - `AT+SBDWT`
 - `AT+SBDWT=`
 - `AT+SBDWB=`
+
+#### Mobile-Terminated Buffer
+
 - `AT+SBDRB`
 - `AT+SBDRT`
 
